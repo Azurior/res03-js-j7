@@ -1,3 +1,5 @@
+import { Character } from './character.js';
+
 class Warrior extends Character {
     #strength;
     

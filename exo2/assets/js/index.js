@@ -1,15 +1,12 @@
-import { Pizza } from './pizza.js';
+import { Warrior } from './warrior.js';
+import { Mage } from './mage.js';
 
 window.addEventListener("DOMContentLoaded", function(){
 	
-	let veggie = new Pizza("Veggie", "tomate", "fromage", "légumes");
+	let mage = new Mage("Mage", 50, 50);
 	
-	let meattie = new Pizza("Meattie", "tomate", "fromage", "viande");
+	let warrior = new Warrior("Guerrier", 60, 10);
 	
-	let fishie = new Pizza("Fishie", "tomate", "fromage", "poisson");
-	
-	console.log(veggie);
-	console.log(meattie);
-	console.log(fishie);
-	
+	console.log(mage);
+	console.log(warrior);
 });

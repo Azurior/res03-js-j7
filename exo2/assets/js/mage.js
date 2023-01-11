@@ -1,3 +1,5 @@
+import { Character } from './character.js';
+
 class Mage extends Character {
     #manaPoints;
     
